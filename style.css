@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(#fff, #fac7c7);
+}
+#navbar {
+    padding: 10px 100px;
+    background-color: navy;
+}
+#navbar h1{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+}
+.row{
+    font-family: 'Baloo Chettan 2', cursive;
+    display: flex;
+}
+.col{
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+    border: 2px solid rgb(138, 138, 138);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 2px;
+}
+.col:hover{
+    cursor: pointer;
+    background-color: rgb(53, 69, 206);
+    color: white;
+}
+.container{
+    max-width: 550px;
+    margin: 100px auto;
+}
+.col-2{
+    vertical-align: middle;
+    font-size: 28px;
+    color: white;
+    flex: 0.999;
+    background-color: rgb(53, 69, 206);
+    border-radius: 5px;
+    height: 50px;
+    padding:0px 15px;
+    margin: 2px;
+}
